@@ -1,4 +1,4 @@
-#Coded by Traodoisub.com
+#Coded by Tran Quoc Hieu
 import os
 from time import sleep
 from datetime import datetime
@@ -86,12 +86,7 @@ def check_tiktok(id_tiktok, token):
 
 os.system('clear')
 banner = r'''
-████████╗██████╗ ███████╗
-╚══██╔══╝██╔══██╗██╔════╝
-   ██║   ██║  ██║███████╗
-   ██║   ██║  ██║╚════██║
-   ██║   ██████╔╝███████║
-   ╚═╝   ╚═════╝ ╚══════╝
+█Quoc Hieu
 '''
 gach  = '========================================='
 option = f'''{gach}{Colors.green}
@@ -102,8 +97,8 @@ Danh sách nhiệm vu tool hỗ trợ: {Colors.red}
 '''
 option_acc = f'''{gach}{Colors.green}
 Danh sách lựa chọn: {Colors.red}
-1. Tiếp tục sử dụng acc TDS đã lưu
-2. Sử dụng acc TDS mới
+1. Tiếp tục sử dụng acc đã lưu
+2. Sử dụng acc mới
 {Colors.yellow}{gach}
 '''
 print(Colorate.Horizontal(Colors.yellow_to_red, Center.XCenter(banner)))
